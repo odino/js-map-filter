@@ -34,10 +34,10 @@ list.reduce((acc, p) => {
 No trust? Check yourself:
 
 ```
-~/projects/js-map-filter (master ✘)✹✭ ᐅ node bench.js                                                                                                                                                                              0s
-filter + map: 23.794ms
-reduce: 6.143ms
-filter-map module: 15.657ms
+~/projects/js-map-filter (master ✔) ᐅ node bench.js                                                                                                                                                                                1s
+filter + map: 19.378ms
+reduce: 6.254ms
+filter-map module: 7.116ms
 ```
 
 ## So what does this guy do?
@@ -54,6 +54,9 @@ filterMap(list, p => {
   }
 })
 ```
+
+Just return `undefined` (*aka don't return*) for the values you
+want to exclude from the final list.
 
 ## Tests
 
