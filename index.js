@@ -1,8 +1,8 @@
 function mapFilter(list, fn) {
   return list.reduce((acc, v) => {
-    let result = fn(v)
+    let result = typeof fn === 'function' ? fn(v) : v
 
-    result && acc.push(result)
+    result != undefined && acc.push(result)
     return acc
   }, [])
 }
