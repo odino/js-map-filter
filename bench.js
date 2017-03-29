@@ -25,7 +25,7 @@ for (let x = 0; x < 10000; x++) {
 }
 console.timeEnd('reduce')
 
-console.time('filter-map module')
+console.time('map-filter module')
 for (let x = 0; x < 10000; x++) {
   filterMap(list, p => {
     if (p.age < 30) {
@@ -33,4 +33,4 @@ for (let x = 0; x < 10000; x++) {
     }
   })
 }
-console.timeEnd('filter-map module')
+console.timeEnd('map-filter module')

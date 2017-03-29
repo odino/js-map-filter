@@ -39,7 +39,7 @@ No trust? Check yourself:
 ~/projects/js-map-filter (master ✔) ᐅ node bench.js                                                                                                                                                                                1s
 filter + map: 19.378ms
 reduce: 6.254ms
-filter-map module: 7.116ms
+map-filter module: 7.116ms
 ```
 
 ## So what does this guy do?
