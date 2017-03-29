@@ -1,5 +1,7 @@
 # map-filter
 
+[![Build Status](https://travis-ci.org/odino/js-map-filter.svg?branch=master)](https://travis-ci.org/odino/js-map-filter)
+
 When you need to run `map` and `filter` together (*aka elegant reduce*).
 
 ## Why
